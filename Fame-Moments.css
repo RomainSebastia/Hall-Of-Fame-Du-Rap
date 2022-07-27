@@ -1,0 +1,618 @@
+/* corps de la page */
+
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+  
+  
+}
+
+
+
+
+
+
+
+
+/*  Header  */
+
+.haut-de-page {
+  background: black;
+  background-size: contain;
+  margin: 0;
+  width: 100%;
+  min-height: 90vh;
+  color: white;
+}
+
+
+
+
+
+
+/* H1 */
+
+.titre-site {
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 1.8rem;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-left: 3px;
+  cursor: context-menu;
+  opacity: 1;
+  transition: opacity 1s ease 0s;
+  filter: drop-shadow(21px 5px 10px #000);
+}
+
+.titre-site span:hover {
+
+  opacity: 0.63;
+  cursor: context-menu;
+
+}
+
+.fame {
+  color: yellow;
+  filter: drop-shadow(-5px 0px 16px #FFFF00);
+  opacity: 1;
+  transition: opacity 1s ease 0s;
+  cursor: context-menu;
+}
+
+.u {
+  color: blue;
+  cursor: context-menu;
+}
+
+.s {
+  color: red;
+  cursor: context-menu;
+}
+
+
+
+
+
+
+
+
+/* NAV */
+
+nav {
+  display: flex;
+  list-style: none;
+  margin-left: 30px;
+  align-items: center;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  justify-content: center;
+
+}
+
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+  list-style: none;
+  justify-content: center;
+  margin: auto;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  align-items: center;
+
+}
+
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: top;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
+}
+
+.filterul {
+
+
+  filter: drop-shadow(0px 8px 10px #FF0000);
+
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+  text-transform: uppercase;
+
+}
+
+a:hover {
+  color: yellow;
+}
+
+
+
+
+
+/* Banniere */
+
+
+
+
+.banniere {
+
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./img/background\ nipsey.avif");
+  background-size: cover;
+  background-position: right;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* SECTION */
+
+
+section {
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* H2 ( titre hall of fame ) */
+
+
+
+.titre-apres-photo {
+
+  max-width: 40%;
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+  font-weight: 900;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  color: white;
+  border-color: white;
+
+
+}
+
+/* H3 rappeurs décédés */
+
+.partie-1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+
+
+
+
+
+
+
+/* Div bloc Hall Of Fame  */
+
+
+
+
+.bloc-hall-of-fame {
+  justify-content: space-between;
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: auto;
+
+}
+
+
+
+
+
+
+/* La div des img   */
+
+.bloc-img-legende {
+
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin:auto;
+  padding: 10px; 
+  max-width: 25%;
+  
+
+}
+
+
+/* Img Hall Of Fame */
+
+
+.photo-hall-of-fame {
+
+  height: 150px;
+  border: rgba(47, 79, 79, 1) solid 5px;
+  transition: transform .1s;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  width: 160px;
+  object-fit: cover;
+  margin: auto;
+  
+
+}
+
+
+.photo-hall-of-fame:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 1;
+
+
+}
+
+
+
+
+/* Texte sous photo */
+
+.figcap {
+
+  text-align: center;
+  font-weight: bold;
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 30px;
+
+
+
+}
+
+
+/* Explications après texte photo */
+
+.explication-texte {
+  color: yellow;
+  text-align: center;
+  font-size: 2.1rem;
+  padding: 20px;
+  font-family: 'Arima';
+  font-weight: bold;
+  margin: auto;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+
+
+
+
+
+
+
+
+}
+
+
+.classement {
+
+  background-color: black;
+
+
+
+}
+
+.partie-3 {
+
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+
+
+}
+
+
+
+/* Section 2 rappeurs totujours en vie  */
+
+.figca {
+  text-align: center;
+  font-weight: bold;
+  margin-left: 15px;
+  
+}
+
+
+
+
+
+
+
+
+
+/* Responsif */
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  li {
+      
+      width:20%;
+      
+  }
+  a { font-size: 0.9rem;
+}  }
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  li {
+      
+   display: none;
+    
+}
+a { font-size: 0.9rem;
+}
+.titre-site {
+  margin: auto;
+}
+}
+
+@media screen and (max-width: 480px) {
+  li {
+      
+    width:20%;
+    
+}
+a { font-size: 0.9rem;
+}
+}
+
+
+/* IPHONE 12 Pro  */
+
+
+
+
+
+@media screen and (min-width: 390px) and (max-width: 844px) {
+
+
+  /* Pas de menue pour l'iphone 12 Pro */
+  li {
+      
+   display: none;
+    
+}
+
+/* Titre principal */
+.titre-site {
+  margin: auto;
+  font-size: 1.5rem;
+  align-items: center;
+}
+
+/* Banniere */
+
+.banniere {
+
+background-position:top;
+
+
+} 
+
+
+/* BLOC QUI ENGLOBE TEXTE ET PHOTO */
+
+.bloc-hall-of-fame {
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 93%;
+  margin: 0;
+  align-items: center;
+  justify-content: space-evenly;
+
+ 
+ 
+}
+
+
+/* BLOC IMG */
+
+.bloc-img-legende {
+  max-width: 44%;
+  margin: 0%;
+ 
+  
+
+
+}
+
+
+
+
+
+/* TEXTE APRES BACKGROUND */
+
+
+.titre-apres-photo {
+   
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  margin-top: 10px;
+  color: white;
+  
+
+}
+
+
+/* titre après photo 2 */
+
+.partie-1 {
+  font-size: 0.9rem;
+}
+
+
+} 
+
+
+/* Fin responsiv iphone 12 */
+
+
+
+/*IPHONE SE*/
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  li {
+      
+   display: none;
+    
+}
+a { font-size: 0.9rem;
+}
+.titre-site {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.banniere {
+
+background-position:top;
+
+
+}
+
+
+
+
+
+}
+/*GALAXY S8*/
+@media screen and (min-width: 360px) and (max-width: 740px) {
+  li {
+      
+   display: none;
+    
+}
+a { font-size: 0.9rem;
+}
+.titre-site {
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.banniere {
+
+background-position:top;
+
+
+}
+
+
+
+}
+/*IPAD AIR*/
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+  li {
+      
+   display: inline-block;
+   
+}
+a { font-size: 0.9rem;
+}
+.titre-site {
+  margin: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.banniere {
+
+background-position:top;
+
+
+}
+
+
+
+}/*IPAD mini*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  li {
+      
+   display: none;
+   
+}
+nav{
+
+display: contents;
+
+}
+a { font-size: 0.9rem;
+
+}
+.titre-site {
+  margin: auto;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+}
+
+.banniere {
+
+background-position:top;
+
+
+}
+}
+
+
+

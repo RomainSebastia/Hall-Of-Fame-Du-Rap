@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+    
+}
+.haut-de-page {
+  background: linear-gradient(90deg, #FFC9C9 0%, #fff 100%);
+  background-size:contain;
+  background-position: right;
+  width: 100%;
+  min-height: 90vh;
+  color: white;
+  
+}
+
+.titre-site {
+  font-family: 'Rubik Moonrocks', cursive;
+  font-size: 1.8rem;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-left: 3px;
+  cursor: context-menu;
+  opacity: 1;
+  transition: opacity 1s ease 0s;
+  filter: drop-shadow(21px 5px 10px #000);
+}
+.titre-site span:hover {
+
+  opacity: 0.63;
+  cursor: context-menu;
+
+}
+.fame {
+  color: blue;
+  filter: drop-shadow(-5px 0px 16px #FFFF00);
+  opacity: 1;
+  transition: opacity 1s ease 0s;
+  cursor: context-menu;
+}
+
+
+.FRENCH{
+
+color: white;
+cursor: context-menu;
+
+}
+
+.moments{
+
+color: red;
+cursor: context-menu;
+}
+
+
+
+nav {
+  display: flex;
+  list-style: none;
+  margin-left: 30px;
+  align-items: center;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  justify-content: center;
+
+}
+
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+  list-style: none;
+  justify-content: center;
+  margin: auto;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  align-items: center;
+
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+  text-transform: uppercase;
+
+}
+
+a:hover {
+  color: yellow;
+}
+
+
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: top;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+    transform-origin: top;
+  }
+}
+
+.filterul {
+
+
+  filter: drop-shadow(0px 8px 10px #FF0000);
+
+
+}
+
+
+
+
+  .banniere {
+
+   
+    height: 100vh;
+    background: url("./img/background\ rap\ français.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-size: 100% 100%;
+  }
+  
+  
+
+
+
+/* SECTION */
+
+
+section {
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* H2 ( titre hall of fame ) */
+  
+  
+  
+  .titre-apres-photo {
+  
+    max-width: 40%;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 900;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 10px;
+    color: white;
+    border-color: white;
+  
+  
+  }
+  
+  /* H3 rappeurs décédés */
+  
+  .partie-1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Div bloc Hall Of Fame  */
+  
+  
+  
+  
+  .bloc-hall-of-fame {
+    justify-content: space-between;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: auto;
+  
+  }
+  
+  
+  
+  
+  
+  
+  /* La div des img   */
+  
+  .bloc-img-legende {
+  
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin:auto;
+    padding: 10px; 
+    max-width: 22%;
+    
+  
+  }
+  
+  
+  /* Img Hall Of Fame */
+  
+  
+  .photo-hall-of-fame {
+  
+    height: 150px;
+    border: rgba(47, 79, 79, 1) solid 5px;
+    transition: transform .1s;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    width: 160px;
+    object-fit: cover;
+    margin: auto;
+    
+  
+  }
+  
+  
+  .photo-hall-of-fame:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    opacity: 1;
+  
+  
+  }
+  
+  
+  
+  
+  /* Texte sous photo */
+  
+  .figcap {
+  
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 30px;
+  
+  
+  
+  }
+  
+  
+  /* Explications après texte photo */
+  
+  .explication-texte {
+    color: yellow;
+    text-align: center;
+    font-size: 2.1rem;
+    padding: 20px;
+    font-family: 'Arima';
+    font-weight: bold;
+    margin: auto;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  .classement {
+  
+    background-color: black;
+  
+  
+  
+  }
+  
+  .partie-3 {
+  
+  
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+  
+  
+  }
