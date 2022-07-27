@@ -7,6 +7,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
  
  
   
@@ -241,7 +242,7 @@ section {
   justify-content: space-between;
   display:flex;
   flex-wrap: wrap;
-  max-width: 50%;
+  max-width: 65%;
   margin: auto;
 
 }
@@ -260,7 +261,7 @@ section {
   color: white;
   margin:auto;
   padding: 10px; 
-  max-width: 20%;
+  max-width: 22%;
   
 
 }
@@ -305,6 +306,7 @@ section {
   width: 80%;
   margin-bottom: 20px;
   margin-left: 30px;
+  font-size: 0.9em;
 
 
 
@@ -368,10 +370,6 @@ section {
   
 }
 
-.tt {
-  color: #FF0000;
-  font-size: 4rem;
-}
 
 
 
