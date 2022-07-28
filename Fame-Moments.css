@@ -242,7 +242,7 @@ section {
   justify-content: space-between;
   display:flex;
   flex-wrap: wrap;
-  max-width: 65%;
+  max-width: 52%;
   margin: auto;
 
 }
@@ -301,12 +301,14 @@ section {
 
 .figcap {
 
-  text-align: center;
+  
   font-weight: bold;
-  width: 80%;
-  margin-bottom: 20px;
-  margin-left: 30px;
-  font-size: 0.9em;
+  max-width: 50%;
+  text-align: center;
+ margin: 0 auto;
+ 
+  
+  font-size: 0.8em;
 
 
 
