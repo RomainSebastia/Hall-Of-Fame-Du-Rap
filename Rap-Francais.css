@@ -258,9 +258,9 @@ section {
   
   
   .photo-hall-of-fame:hover {
-    -ms-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -ms-transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
     opacity: 1;
   
   
@@ -274,12 +274,10 @@ section {
   .figcap {
   
     text-align: center;
-    font-weight: bold;
-    
+  font-weight: bold;
    margin: 0 auto;
-   font-size: 1.1rem;
-   padding: 32px;
-  
+  font-size: 1.1rem;
+  padding: 60px;
   
   
   }
@@ -330,3 +328,13 @@ section {
   
   
   }
+
+  .figca {
+  
+    text-align: center;
+    font-weight: bold;
+     margin: 0 auto;
+    font-size: 1.1rem;
+    padding: 60px;
+  }
+  

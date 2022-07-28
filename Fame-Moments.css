@@ -286,9 +286,9 @@ section {
 
 
 .photo-hall-of-fame:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+  -ms-transform: scale(1.9);
+  -webkit-transform: scale(1.9);
+  transform: scale(1.9);
   opacity: 1;
 
 
@@ -305,7 +305,7 @@ section {
   font-weight: bold;
    margin: 0 auto;
   font-size: 1.1rem;
-  padding: 32px;
+  padding: 60px;
 }
 
 /* Explications après texte photo */
@@ -362,11 +362,12 @@ section {
   
   text-align: center;
   font-weight: bold;
-   margin: 0 auto;
+   margin: 0px auto ;
   font-size: 1.1rem;
-  padding: 32px;
+  padding: 60px;
+  width: 100%;
+  
 }
-
 
 
 
